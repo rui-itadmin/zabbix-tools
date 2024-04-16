@@ -1,4 +1,5 @@
 #!/bin/bash
+# put domain in parameter1. ssl-expire.sh will return ssl expire date of https://domain.
 
 ssl_expire() {
 
