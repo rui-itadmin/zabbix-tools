@@ -18,3 +18,13 @@ $ ./ssl-expire.sh www.google.com
 40
 
 ```
+
+zabbix-agent.yaml
+---
+An example of an Ansible playbook to install Zabbix Agent. The action list is as follows:
+- install zabbix-agent
+- change server ip in zabbix_agentd.conf
+- copy listenport-json.sh
+- create userparameter
+- restart zabbix-agent
+
